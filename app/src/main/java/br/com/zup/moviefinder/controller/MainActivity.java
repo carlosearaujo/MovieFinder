@@ -108,12 +108,12 @@ public class MainActivity extends BaseActivity {
             public void afterTextChanged(Editable s) {
                 boolean isClicable = !s.toString().matches(" *");
                 if(isClicable) {
-                    wgtBtnAddNewMovie.setClickable(isClicable);
                     wgtBtnAddNewMovie.setBackgroundTintList(getResources().getColorStateList(R.color.colorPrimary));
                 }
                 else{
                     wgtBtnAddNewMovie.setBackgroundTintList(getResources().getColorStateList(R.color.gray));
                 }
+                wgtBtnAddNewMovie.setClickable(isClicable);
             }
         });
     }
