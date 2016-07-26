@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Movie Finder</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling">Meus Filmes</string>
+    <string name="find_on_network_hint">Título do filme</string>
+    <string name="movie_title_description">Título:</string>
+    <string name="movie_director_description">Direção:</string>
+    <string name="movie_genre_description">Gênero:</string>
+    <string name="movie_country_description">Nacionalidade:</string>
+    <string name="movie_description_awards">Prêmios:</string>
+    <string name="movie_duration_description">Duração:</string>
+    <string name="not_avaiable">N/A</string>
+    <string name="gallery_add_error">Erro ao adicionar na galeria</string>
+    <string name="title">título</string>
+    <string name="constraint_violation_message">Já existe um filme com este %s na galeria.</string>
+    <string name="add_success">Adicionado com sucesso</string>
+    <string name="find_on_gallery">Buscar por título</string>
+</resources>

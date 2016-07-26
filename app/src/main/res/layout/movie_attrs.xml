@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:showIn="@layout/movie_view">
+
+    <TextView
+        android:id="@+id/movie_title_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/movie_title_description"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/movie_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not_avaiable"
+        android:layout_toRightOf="@+id/movie_country_description"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/movie_director_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/movie_director_description"
+        android:layout_below="@+id/movie_title"
+        android:layout_marginBottom="4dp"/>
+
+
+    <TextView
+        android:id="@+id/movie_director"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not_avaiable"
+        android:layout_toRightOf="@+id/movie_country_description"
+        android:layout_below="@id/movie_title"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/movie_genre_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/movie_genre_description"
+        android:layout_below="@+id/movie_director"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/movie_genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not_avaiable"
+        android:layout_toRightOf="@id/movie_country_description"
+        android:layout_below="@+id/movie_director"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/movie_country_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/movie_country_description"
+        android:layout_below="@+id/movie_genre"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="4dp"/>
+
+    <TextView
+        android:id="@+id/movie_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not_avaiable"
+        android:layout_toRightOf="@id/movie_country_description"
+        android:layout_below="@id/movie_genre"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/movie_duration_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/movie_duration_description"
+        android:layout_below="@+id/movie_country"/>
+
+    <TextView
+        android:id="@+id/movie_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not_avaiable"
+        android:layout_toRightOf="@id/movie_country_description"
+        android:layout_below="@id/movie_country"/>
+
+</RelativeLayout>
